@@ -1,0 +1,35 @@
+{
+  "name": "programming_bloc",
+  "version": "1.0.0",
+  "description": "programming and hacking tutorials blogs post",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development ./hackercampcode/frontend/src/index.js --output ./hackercampcode/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./hackercampcode/frontend/src/index.js --output ./hackercampcode/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reaganscofield/programming_block.git"
+  },
+  "author": "Reagan Scofield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reaganscofield/programming_block/issues"
+  },
+  "homepage": "https://github.com/reaganscofield/programming_block#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "weak-key": "^1.0.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
